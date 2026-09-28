@@ -1,0 +1,20 @@
+{
+    "name": "bptd-lampung/simpeg-h",
+    "description": "Sistem Informasi Kepegawaian Terintegrasi BPTD Kelas II Lampung",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "phpmailer/phpmailer": "^6.9",
+        "phpoffice/phpspreadsheet": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    }
+}
